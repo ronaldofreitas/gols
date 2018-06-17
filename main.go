@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/gols/variaveis"
+)
 
 func main() {
-	fmt.Println("o primeiro GO a gente nunca esquece")
+	fmt.Println("meu telefone é " + variaveis.Telefone("8989898"))
+	fmt.Println("meu nome é " + variaveis.Reverse("satierF"))
 }
